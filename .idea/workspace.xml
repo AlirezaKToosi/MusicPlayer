@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MusicPlayer:jar" />
+      <artifact name="MusicPlayer:jar2" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5abaaf3c-18f4-497a-b975-46f3e2b65af1" name="Changes" comment="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="5abaaf3c-18f4-497a-b975-46f3e2b65af1" name="Changes" comment="Changed Project Based MVC architecture&#10;Do some refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/novare/musicPlayer/utils/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2cda7402-3387-43b8-8e02-eabce4820b93" />
+        <option name="url" value="https://github.com/AlirezaKToosi/MusicPlayer.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,6 +61,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26666668",
@@ -94,7 +103,8 @@
       <workItem from="1687955153073" duration="3380000" />
       <workItem from="1690291730556" duration="9699000" />
       <workItem from="1690451024171" duration="30709000" />
-      <workItem from="1690588954689" duration="662000" />
+      <workItem from="1690588954689" duration="883000" />
+      <workItem from="1690671021254" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact">
       <created>1684090833544</created>
@@ -110,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684092147943</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed Project Based MVC architecture&#10;Do some refactoring">
+      <created>1690589787522</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690589787522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact" />
+    <MESSAGE value="Changed Project Based MVC architecture&#10;Do some refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Project Based MVC architecture&#10;Do some refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
