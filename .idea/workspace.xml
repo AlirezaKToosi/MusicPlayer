@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5abaaf3c-18f4-497a-b975-46f3e2b65af1" name="Changes" comment="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact" />
+    <list default="true" id="5abaaf3c-18f4-497a-b975-46f3e2b65af1" name="Changes" comment="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/novare/musicPlayer/utils/Song.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,19 +46,41 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aktoo/Downloads/CheckStyle-IDEA-5.79.0.zip",
+    "last_opened_file_path": "C:/Drive D/Alireza/Back end course/Project 2/Other projects/3/ATM-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26666668",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.novare.musicPlayer" />
+      <recent name="com.novare.musicPlayer.mainMenu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="com.novare.musicPlayer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.novare.musicPlayer.Main" />
+      <module name="MusicPlayer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.novare.musicPlayer.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +90,11 @@
       <option name="presentableId" value="Default" />
       <updated>1684068472018</updated>
       <workItem from="1684068473138" duration="1571000" />
-      <workItem from="1684083707905" duration="4210000" />
+      <workItem from="1684083707905" duration="4978000" />
+      <workItem from="1687955153073" duration="3380000" />
+      <workItem from="1690291730556" duration="9699000" />
+      <workItem from="1690451024171" duration="30709000" />
+      <workItem from="1690588954689" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact">
       <created>1684090833544</created>
@@ -69,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684090833544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact">
+      <created>1684092147943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684092147943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +155,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact" />
     <option name="LAST_COMMIT_MESSAGE" value="Add main class implementation&#10;add Song class implementation&#10;create MusicPlayer artifact" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/novare/musicPlayer/songMenu/SongMenuModel.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/novare/musicPlayer/songMenu/SongMenuModel.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/novare/musicPlayer/mainMenu/MainMenuController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
